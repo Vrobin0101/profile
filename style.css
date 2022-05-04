@@ -10,6 +10,10 @@ body {
   .container {
     width: 700px;
   }
+
+  .card-white {
+    width: 50%;
+  }
 }
 
 @media (max-width: 720px) {
@@ -17,12 +21,20 @@ body {
   .container {
     width: 500px;
   }
+
+  .card-white {
+    width: 75%;
+  }
 }
 
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
+  }
+
+  .card-white {
+    width: 80%;
   }
 }
 
@@ -43,7 +55,6 @@ h2 {
 }
 
 .card-white {
-  width: 80%;
   margin: 16px auto;
   padding: 8px;
 
