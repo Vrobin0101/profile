@@ -5,14 +5,18 @@ body {
   background: linear-gradient(90deg, #ED969F, #EA858F, #9198e5)
 }
 
+.container {
+  margin: 16px auto;
+  width: 900px;
+  color: #580C1F;
+  text-align: center;
+  font-size: 1em;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
-  }
-
-  .card-white {
-    width: 50%;
   }
 }
 
@@ -21,20 +25,12 @@ body {
   .container {
     width: 500px;
   }
-
-  .card-white {
-    width: 75%;
-  }
 }
 
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
-  }
-
-  .card-white {
-    width: 80%;
   }
 }
 
@@ -46,13 +42,6 @@ h2 {
   color: #952B36;
 }
 
-.container {
-  margin: 16px auto;
-
-  color: #580C1F;
-  text-align: center;
-  font-size: 1em;
-}
 
 .card-white {
   margin: 16px auto;
